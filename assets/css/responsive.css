@@ -1,6 +1,6 @@
 h1, h2, h3 {
+    font-weight: bold;
     font-family: 'PT Sans', sans-serif;
-
 }
 
 body {
@@ -117,6 +117,7 @@ input[type=submit]:hover {
 }
 
 label {
+    font-weight: bold;
     font-family: 'PT Sans', sans-serif;
 }
 
