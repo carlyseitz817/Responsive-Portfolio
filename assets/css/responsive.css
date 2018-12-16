@@ -1,5 +1,6 @@
 h1, h2, h3 {
-    font-family: PT Sans;
+    font-family: 'Open Sans', sans-serif;
+
 }
 
 body {
@@ -116,7 +117,7 @@ input[type=submit]:hover {
 }
 
 label {
-    font-family: PT Sans;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .portfoliowrapper {
