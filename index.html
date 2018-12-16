@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en-US">
+
+<head>
+    <link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->
+    <meta charset="UTF-8">
+    <title>About</title>
+</head>
+
+<body>
+        <div class="topbar clearfix">
+                <div class="topnav" id="myTopnav">
+                    <h1 class="name">CARLY SEITZ</h1>
+                    <h2 style="float:right;">
+            
+                        <a href="responsive-index.html">ABOUT</a>
+                        <a href="responsive-portfolio.html">PORTFOLIO</a>
+                        <a href="responsive-contact.html">CONTACT</a>
+            
+                        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                            <i class="fa fa-bars"></i>
+                        </a>
+                    </h2>
+            </div>
+                </div>
+    
+    <br><br>
+
+    <div class="main-content clearfix">
+        <h1>ABOUT ME</h1>
+        <hr class="hrmain">
+        <!-- <div class="content"> -->
+        <!-- <div class="bio-img"> -->
+        <img src="assets/images/carly-seitz-square-200-150.jpg">
+        <!-- </div> -->
+        <div class="bio-text">
+        <p>
+            I'm Carly. Originally, I'm from Houston, TX, but I moved to DFW for college in Denton. I was there for five and a half years (I double majored and had multiple foot surgeries which delayed things). But hey, I graduated with two degrees: one in Digital Retailing, and one in Fashion Merchandising. Plus, I have a minor in Marketing.
+        </p>
+
+        <p>
+            After graduation, I worked in Carrollton as the internal web gal. However, I was not a developer. Regardless, I learned a lot which is now helping me as I work on making a career change into programming.
+        </p>
+        
+        <p>
+            As for my hobbies, I enjoy collaging, painting, thrifting (I sell vintage clothing), and hanging out with my sugar gliders.
+        </p>
+        </div>
+    </div>
+    <!-- </div> -->
+
+    <footer class="footertext">
+        <p>Copyright &copy; 2018 Carly Seitz</p>
+    </footer>
+
+</body>
+
+<script>
+        function myFunction() {
+          var x = document.getElementById("myTopnav");
+          if (x.className === "topnav") {
+            x.className += " responsive";
+          } else {
+            x.className = "topnav";
+          }
+        }
+        </script>
+
+<!-- <script>
+var $mainContent = $(".main-content");
+$mainContent.siblings(".navcontainer").css("max-width", $mainContent.width( modWidth ))+"px");
+modWidth *=.9;
+</script> -->
+
+</html>
