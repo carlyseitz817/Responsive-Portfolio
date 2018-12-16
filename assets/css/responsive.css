@@ -246,10 +246,6 @@ img {
         margin-top: 1em;  
     }
 
-    /* .responsive a:not(:last-child) {
-        float:left;width: 18em; text-align: left; margin-left:0.5em;left:0px;
-    } */
-
     .responsive a:not(:last-child) {
         float:left;width: 18em; text-align: left; margin-left:0.5em;left:0px;
     }
